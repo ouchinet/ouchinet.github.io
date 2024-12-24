@@ -1,0 +1,10 @@
+{
+  "name": "ouchinet-potal",
+  "version": "1.0.0",
+  "author": "Webfullsympathy",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "web-vitals": "^4.2.4"
+  }
+}
