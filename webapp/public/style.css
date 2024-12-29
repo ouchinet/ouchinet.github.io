@@ -2,11 +2,20 @@
     color: #ffffff;
     font-size: 2em;
     font-weight:bold;
+    margin: 0;
 }
 
 p{
     color: #ffffff;
     font-size: 1.2em;
+}
+
+ul{
+    list-style: disc;
+}
+
+li{
+    display: list-item;
 }
 
 html{
@@ -18,4 +27,14 @@ html{
     margin: 0 auto;
     margin-top: 30px;
     width:fit-content;
+}
+
+@media (prefers-color-scheme: light) {
+    p{
+        color: #000000;
+    }
+}
+
+#art-edit{
+    margin-top: 1.8em;
 }

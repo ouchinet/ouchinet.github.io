@@ -23,9 +23,7 @@ const  App = () => {
 
             <br />
 
-            <Link to="/" style={{margin: "10px"}}>ホーム</Link>
-
-            <Link to="/docs" style={{margin: "10px"}}>ドキュメント</Link>
+            
           </header>
 
           <Routes>
