@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
                 const slug = data[key].slug
 
                 const listItem = document.createElement("li")
-                listItem.innerHTML = "<a href='docs?" + slug + "'>" + key + "</a>"
+                listItem.innerHTML = "<a href='/docs?" + slug + "'>" + key + "</a>"
                 docsList.appendChild(listItem)
             }
         })
